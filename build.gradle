@@ -34,8 +34,8 @@ dependencies {
 
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
-    runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
-/*    runtimeOnly 'com.mysql:mysql-connector-j' //아마존 배포 이후 dB 연결 바꿔져야함*/
+//    runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
+    runtimeOnly 'com.mysql:mysql-connector-j' //아마존 배포 이후 dB 연결 바꿔져야함
 
     annotationProcessor 'org.projectlombok:lombok'
     testCompileOnly('org.projectlombok:lombok:')
