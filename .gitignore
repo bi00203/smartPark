@@ -17,7 +17,7 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
-application.properties
+application-aws.properties
 
 ### IntelliJ IDEA ###
 .idea
